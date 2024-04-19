@@ -8,10 +8,8 @@ Linear regression is often made use of in artificial intelligence for numerous f
 
 ## How to make a linear regression 
 To make a linear regression we will use other libraries because to make it easier. We will use matplotlib, pandas and numpy which are very popular python librarues when it comes to ML:
-To develop a linear regression model using matplotlib, pandas, and numpy, we first import these libraries. Then, we load our data with pandas and split it into features \(X\) and the target variable \(y\). Next, we compute the coefficients \(\beta\) using the normal equation:
+- To develop a linear regression model using matplotlib, pandas, and numpy, we first import these libraries. Then, we load our data with pandas and split it into features (X) and the target variable (y). Next, we compute the coefficients (β) using the normal equation:
 
-\[
-\beta = (X^T X)^{-1} X^T y
-\]
+β = (X^T X)^(-1) X^T y
 
 After that, we visualize the data and regression line using matplotlib. Finally, we make predictions on new data using the learned model. This approach allows for a straightforward implementation of linear regression for predictive modeling tasks in Python.
